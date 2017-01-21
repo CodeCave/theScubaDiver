@@ -12,7 +12,7 @@
     <sprite>sprites\spr_waveAnim</sprite>
     <sprite>sprites\spr_fish</sprite>
     <sprite>sprites\fish_backup</sprite>
-    <sprite>sprites\spr_test01</sprite>
+    <sprite>sprites\spr_testz</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
