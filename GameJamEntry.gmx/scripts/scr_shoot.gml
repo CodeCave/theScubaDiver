@@ -3,3 +3,4 @@ wave_energy.direction = image_angle;
 wave_energy.image_angle = image_angle;
 wave_energy.speed = 3;
 wave_energy.image_speed = 100;
+audio_play_sound(snd_shoot,0,false);
