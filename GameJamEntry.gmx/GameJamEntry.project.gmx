@@ -30,6 +30,7 @@
     <background>background\bg_title</background>
     <background>background\bg_lvl_one</background>
     <background>background\bg_waterfore</background>
+    <background>background\bg_bg</background>
   </backgrounds>
   <paths name="paths">
     <path>paths\pth_backandForth</path>
