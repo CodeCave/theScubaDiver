@@ -12,6 +12,7 @@
     <sprite>sprites\spr_wall</sprite>
     <sprite>sprites\spr_duck</sprite>
     <sprite>sprites\spr_waveAnim</sprite>
+    <sprite>sprites\spr_waveAnimVert</sprite>
     <sprite>sprites\spr_fish</sprite>
     <sprite>sprites\fish_backup</sprite>
     <sprite>sprites\spr_testz</sprite>
@@ -35,6 +36,7 @@
     <object>objects\obj_wall</object>
     <object>objects\obj_wave_energy</object>
     <object>objects\obj_fish</object>
+    <object>objects\obj_wave_enery_vert</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_lvl_one</room>
