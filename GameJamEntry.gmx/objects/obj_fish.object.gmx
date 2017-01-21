@@ -28,6 +28,7 @@
             <string>hsp=0;
 vsp=0;
 movespeed = 4;
+count = 0;
 </string>
           </argument>
         </arguments>
@@ -52,12 +53,17 @@ movespeed = 4;
             <kind>1</kind>
             <string>if(obj_player.state != states.dead){
     if(irandom(100)&gt;80){
+     if(count = 0){        
         if(irandom(1)=0){diff = -1;}
         else{ diff=1;}
+        }
         image_xscale = diff;
         hsp = movespeed * diff;
         scr_detectCollision();
-        x += hsp;    
+        x += hsp;
+        count ++;
+        if(count &gt; 100){
+        count =0;}   
     }
 }
 </string>

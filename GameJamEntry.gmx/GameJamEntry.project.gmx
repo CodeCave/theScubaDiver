@@ -17,7 +17,9 @@
     <sprite>sprites\spr_testz</sprite>
   </sprites>
   <backgrounds name="background"/>
-  <paths name="paths"/>
+  <paths name="paths">
+    <path>paths\pth_backandForth</path>
+  </paths>
   <scripts name="scripts">
     <script>scripts\scr_getInputs.gml</script>
     <script>scripts\scr_normalState.gml</script>
