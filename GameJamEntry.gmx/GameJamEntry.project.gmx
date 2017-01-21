@@ -16,8 +16,14 @@
     <sprite>sprites\spr_fish</sprite>
     <sprite>sprites\fish_backup</sprite>
     <sprite>sprites\spr_testz</sprite>
+    <sprite>sprites\sprite7</sprite>
+    <sprite>sprites\spr_bg</sprite>
   </sprites>
-  <backgrounds name="background"/>
+  <backgrounds name="background">
+    <background>background\bg_title</background>
+    <background>background\bg_lvl_one</background>
+    <background>background\bg_waterfore</background>
+  </backgrounds>
   <paths name="paths">
     <path>paths\pth_backandForth</path>
   </paths>
@@ -34,6 +40,7 @@
   <objects name="objects">
     <object>objects\obj_player</object>
     <object>objects\obj_wall</object>
+    <object>objects\obj_bg</object>
     <object>objects\obj_wave_energy</object>
     <object>objects\obj_fish</object>
     <object>objects\obj_wave_enery_vert</object>
