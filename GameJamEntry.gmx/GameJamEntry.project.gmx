@@ -13,7 +13,11 @@
     <sprite>sprites\spr_fish</sprite>
     <sprite>sprites\fish_backup</sprite>
     <sprite>sprites\spr_test01</sprite>
+<<<<<<< HEAD
     <sprite>sprites\ZachSprite</sprite>
+=======
+    <sprite>sprites\spr_test03</sprite>
+>>>>>>> origin/master
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
