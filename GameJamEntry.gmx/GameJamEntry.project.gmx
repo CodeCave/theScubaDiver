@@ -22,16 +22,24 @@
     <sprites name="island">
       <sprite>sprites\spr_island1</sprite>
       <sprite>sprites\spr_island2</sprite>
-      <sprite>sprites\spr_island5</sprite>
-      <sprite>sprites\spr_island4</sprite>
       <sprite>sprites\spr_island3</sprite>
+      <sprite>sprites\spr_island4</sprite>
+      <sprite>sprites\spr_island5</sprite>
+      <sprite>sprites\spr_island6</sprite>
+      <sprite>sprites\spr_island7</sprite>
+      <sprite>sprites\spr_island8</sprite>
+      <sprite>sprites\spr_island9</sprite>
+      <sprite>sprites\spr_island10</sprite>
+      <sprite>sprites\spr_island11</sprite>
     </sprites>
+    <sprite>sprites\spr_bubble</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_title</background>
     <background>background\bg_lvl_one</background>
     <background>background\bg_waterfore</background>
     <background>background\bg_bg</background>
+    <background>background\bg_waterbg</background>
   </backgrounds>
   <paths name="paths">
     <path>paths\pth_backandForth</path>
@@ -61,7 +69,14 @@
       <object>objects\obj_island3</object>
       <object>objects\obj_island4</object>
       <object>objects\obj_island5</object>
+      <object>objects\obj_island6</object>
+      <object>objects\obj_island7</object>
+      <object>objects\obj_island8</object>
+      <object>objects\obj_island9</object>
+      <object>objects\obj_island10</object>
+      <object>objects\obj_island11</object>
     </objects>
+    <object>objects\obj_bubble</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_menu</room>

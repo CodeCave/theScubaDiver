@@ -26,7 +26,7 @@
           <argument>
             <kind>1</kind>
             <string>
-movespeed =1;
+movespeed =6;
 height = y;
 </string>
           </argument>
@@ -50,20 +50,18 @@ height = y;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>maxHeight = 500;
-current = height - y;
-
- if(irandom(1)=0){
+            <string>if(irandom(1)=0){
     diff = -1;
  } else {
     diff = 1;
  }
  
  x += diff;
-if(current &gt; maxHeight) {
-    y += maxHeight;
-}
+
 y -= movespeed;
+
+if(y=0){
+y = room_height;}
 
 
     
