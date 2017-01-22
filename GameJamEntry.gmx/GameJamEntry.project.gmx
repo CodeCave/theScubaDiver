@@ -15,7 +15,9 @@
     <sprite>sprites\spr_wall</sprite>
     <sprite>sprites\spr_duck</sprite>
     <sprite>sprites\spr_waveAnim</sprite>
+    <sprite>sprites\spr_waveUp</sprite>
     <sprite>sprites\spr_megaWave</sprite>
+    <sprite>sprites\spr_upMegaWave</sprite>
     <sprite>sprites\spr_fish</sprite>
     <sprite>sprites\fish_backup</sprite>
     <sprite>sprites\spr_bg</sprite>
@@ -36,6 +38,9 @@
     </sprites>
     <sprite>sprites\spr_bubble</sprite>
     <sprite>sprites\spr_gun</sprite>
+    <sprite>sprites\spr_upgun</sprite>
+    <sprite>sprites\spr_downgun</sprite>
+    <sprite>sprites\upgun</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_title</background>
