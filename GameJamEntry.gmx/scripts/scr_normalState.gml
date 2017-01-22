@@ -10,6 +10,7 @@ scr_getInputs();
 global.move = key_left+key_right;
 if(global.move!=0){image_xscale = global.move;}
 
+
 hsp = (global.move * movespeed) + (boost); // Move the Character
 
 if(place_meeting(x,y+1,obj_wall)){ // Jump if on ground
@@ -28,7 +29,7 @@ if (space = 1) {
 }
 
 if (!canShoot) {
-    if (count > 30) {
+    if (count > 45) {
         canShoot = true;
         boost = 0;
         vboost = 0;
