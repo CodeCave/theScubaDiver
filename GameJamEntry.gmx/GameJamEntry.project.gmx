@@ -8,6 +8,7 @@
     <sound>sound\snd_shoot</sound>
     <sound>sound\snd_button</sound>
     <sound>sound\sound2</sound>
+    <sound>sound\sound_mega_wave</sound>
   </sounds>
   <sprites name="sprites">
     <sprite>sprites\spr_normal</sprite>

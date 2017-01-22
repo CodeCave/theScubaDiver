@@ -1,12 +1,11 @@
-//chargedShot = argument0;
-
+//var gunAiming = obj_gun.gunAiming;
 var object;
 var chargedShot = false;
 //if (obj_player.canShoot) {
 
     obj_player.canShoot = false;
 
-    if (arrow_down = 1) {
+    if (shift = 1) {
         chargedShot = true;
     } 
     //determines shot type and image angle
@@ -22,17 +21,27 @@ var chargedShot = false;
        object = obj_mega_wave;
     }
 
+
     
       
         var wave_energy = instance_create(x,y,object);
         if (obj_gun.image_xscale = 1){
             wave_energy.direction = 0;
             boost = -1;
-        } else {
+        } else if (obj_gun.image_xscale = -1) {
             wave_energy.direction = 180;
             wave_energy.image_xscale = -1;
             boost = 1;
-        }
+            }
+            /**
+        } else if (gunAiming = "down") {
+            wave_energy.direction = 270;
+            vboost = -1;
+        } else if (gunAiming = "up") {
+            wave_energy.direction = 90;
+            wave_energy.image_yscale = -1;
+            vboost = 1;
+        }**/
       //  wave_energy.direction = obj_gun.image_xscale;
 
 /**
@@ -80,10 +89,16 @@ var chargedShot = false;
 
     wave_energy.image_angle = image_angle;
     wave_energy.speed = 5;
-    audio_play_sound(snd_shoot,0,false);
+    
+    if (!chargedShot) {
+        audio_play_sound(snd_shoot,0,false);
+    } else {
+        audio_play_sound(sound_mega_wave, 0, false);
+    }
 
-    
-    
+   // obj_gun.image_angle = baseAngle;    
+ //   obj_gun.x = obj_player.x;
+   // obj_gun.y = obj_player.y;    
 //}//end canShoot 
 
 

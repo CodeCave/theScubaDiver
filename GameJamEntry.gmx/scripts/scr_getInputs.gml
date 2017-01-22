@@ -8,4 +8,5 @@ arrow_right = keyboard_check(vk_right);
 arrow_left = keyboard_check(vk_left);
 arrow_up = keyboard_check(vk_up);
 arrow_down = keyboard_check(vk_down);
+shift = keyboard_check(vk_shift);
 
