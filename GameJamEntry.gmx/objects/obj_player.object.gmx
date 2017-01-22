@@ -26,7 +26,7 @@
           <argument>
             <kind>1</kind>
             <string>//Initialize Variables
-grav = 0.4
+grav = 0.3
 hsp = 0;
 vsp = 0;
 jumpspeed = 6;
@@ -35,6 +35,8 @@ canShoot = true;
 count = 0;
 boost = 0;
 vboost = 0;
+deadcount = 0;
+wincount = 0;
 
 scr_initializeStates();
 state = states.normal;

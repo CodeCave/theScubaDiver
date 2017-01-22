@@ -153,6 +153,7 @@
     <instance objName="obj_bubble" x="2560" y="-180" name="inst_9B977D1E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_bubble" x="3352" y="-244" name="inst_A733ACDF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_gun" x="-228" y="560" name="inst_5ACB09DE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_win" x="1996" y="1560" name="inst_37553E38" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

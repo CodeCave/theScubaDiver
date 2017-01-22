@@ -1,8 +1,7 @@
-/*if(fromState=states.normal){
-   vsp = 1 *-jumpspeed; 
-   textX = view_xview + view_wview * 0.5
-   textY = view_yview + view_hview * 0.5
-}*/
+if(fromState=states.normal){
+    audio_play_sound(snd_dead,0,false);
+    fromState=states.dead;
+}
 
 image_angle=90;
 
@@ -14,3 +13,9 @@ scr_detectCollision();
     
 x += hsp;
 y += vsp;
+
+deadcount ++;
+if (deadcount >= 200){
+instance_destroy();
+room_goto(rm_gameOver);
+}

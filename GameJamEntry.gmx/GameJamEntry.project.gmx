@@ -14,6 +14,9 @@
     <sound>sound\snd_err</sound>
     <sound>sound\snd_jmp</sound>
     <sound>sound\snd_yep</sound>
+    <sound>sound\snd_title</sound>
+    <sound>sound\snd_bgmusix</sound>
+    <sound>sound\snd_loser</sound>
   </sounds>
   <sprites name="sprites">
     <sprite>sprites\spr_normal</sprite>
@@ -43,6 +46,7 @@
     <sprite>sprites\spr_gun</sprite>
     <sprite>sprites\spr_plat</sprite>
     <sprite>sprites\spr_eel</sprite>
+    <sprite>sprites\spr_sub</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_title</background>
@@ -50,6 +54,8 @@
     <background>background\bg_waterfore</background>
     <background>background\bg_bg</background>
     <background>background\bg_waterbg</background>
+    <background>background\bg_loser</background>
+    <background>background\bg_win</background>
   </backgrounds>
   <paths name="paths">
     <path>paths\pth_backandForth</path>
@@ -93,11 +99,14 @@
     <object>objects\obj_gun</object>
     <object>objects\obj_mega_wave</object>
     <object>objects\obj_platform</object>
+    <object>objects\obj_musicPlayer</object>
+    <object>objects\obj_win</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_menu</room>
     <room>rooms\rm_lvl_one</room>
     <room>rooms\rm_gameOver</room>
+    <room>rooms\rm_winner</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>

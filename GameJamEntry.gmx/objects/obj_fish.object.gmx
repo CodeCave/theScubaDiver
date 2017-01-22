@@ -221,7 +221,8 @@ image_xscale = dir;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>obj_player.state=states.dead;
+            <string>obj_player.state = states.dead;
+obj_player.fromState = states.normal;
 
 </string>
           </argument>
