@@ -112,7 +112,7 @@
     <instance objName="obj_island6" x="1848" y="824" name="inst_F31DB35A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_island7" x="1964" y="1104" name="inst_99182260" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_island8" x="2096" y="1292" name="inst_C63DA43E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_island9" x="2184" y="552" name="inst_43DA79BA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_island9" x="2140" y="488" name="inst_43DA79BA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_island10" x="2556" y="904" name="inst_4630737C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_island11" x="2868" y="872" name="inst_79BC5A61" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="1004" y="1392" name="inst_58A71EB9" locked="0" code="" scaleX="1" scaleY="3.625" colour="4294967295" rotation="0"/>
@@ -122,6 +122,24 @@
     <instance objName="obj_fish" x="3304" y="692" name="inst_713C56B9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="-4" y="1596" name="inst_0E3911E4" locked="0" code="" scaleX="0.75" scaleY="13.375" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="3860" y="1164" name="inst_4D40BB07" locked="0" code="" scaleX="3.75" scaleY="38.875" colour="4294967295" rotation="0"/>
+    <instance objName="obj_bubble" x="2448" y="4916" name="inst_09E4A556" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_bubble" x="1556" y="4924" name="inst_B3102844" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_bubble" x="1780" y="4500" name="inst_9DEB3EBE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_bubble" x="3076" y="4232" name="inst_C1C1D9ED" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_bubble" x="3240" y="5304" name="inst_9747A3B0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_bubble" x="492" y="5056" name="inst_39B3C67C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_bubble" x="596" y="4544" name="inst_16C68075" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_bubble" x="1340" y="4284" name="inst_0AD70A97" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_bubble" x="1176" y="3896" name="inst_612A5339" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_bubble" x="2228" y="3760" name="inst_1F0B8FBE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_bubble" x="3904" y="4924" name="inst_A6AF6790" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_bubble" x="3612" y="3740" name="inst_F5612A7A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_bubble" x="3628" y="3112" name="inst_0547B707" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_bubble" x="200" y="3956" name="inst_621F9198" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_bubble" x="1712" y="3284" name="inst_5E5EF39F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_bubble" x="1704" y="5312" name="inst_2A5A2344" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_bubble" x="2532" y="4344" name="inst_AC57FB9A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_wall" x="1956" y="536" name="inst_5ACC38B2" locked="0" code="" scaleX="3.1875" scaleY="5.6875" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
