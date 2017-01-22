@@ -53,7 +53,7 @@ menu_script = scr_mainMenu;
           <argument>
             <kind>1</kind>
             <string>index=0;
-colr=c_black;
+colr=c_white;
 </string>
           </argument>
         </arguments>
@@ -77,7 +77,7 @@ colr=c_black;
           <argument>
             <kind>1</kind>
             <string>index=1;
-draw_set_colour(c_white);
+draw_set_colour(c_black);
 draw_text(x,y,text);
 audio_play_sound(snd_button,0,false);
 
@@ -160,7 +160,7 @@ colr = c_white;
             <string>draw_sprite(spr_button,index,x,y);
 draw_set_valign(fa_center);
 draw_set_halign(fa_center);
-draw_set_font(fnt_blub);
+draw_set_font(fnt_blub_new);
 draw_set_colour(colr);
 draw_text(x,y,text);
 

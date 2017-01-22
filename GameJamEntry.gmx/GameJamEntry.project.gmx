@@ -8,6 +8,9 @@
     <sound>sound\snd_shoot</sound>
     <sound>sound\snd_button</sound>
     <sound>sound\sound2</sound>
+    <sound>sound\snd_err</sound>
+    <sound>sound\snd_jmp</sound>
+    <sound>sound\snd_yep</sound>
   </sounds>
   <sprites name="sprites">
     <sprite>sprites\spr_normal</sprite>
@@ -16,6 +19,7 @@
     <sprite>sprites\spr_waveAnim</sprite>
     <sprite>sprites\spr_megaWave</sprite>
     <sprite>sprites\spr_fish</sprite>
+    <sprite>sprites\spr_plat</sprite>
     <sprite>sprites\fish_backup</sprite>
     <sprite>sprites\spr_bg</sprite>
     <sprite>sprites\spr_button</sprite>
@@ -57,7 +61,9 @@
     <script>scripts\scr_deadState.gml</script>
     <script>scripts\scr_mainMenu.gml</script>
   </scripts>
-  <fonts name="fonts"/>
+  <fonts name="fonts">
+    <font>fonts\fnt_blub_new</font>
+  </fonts>
   <objects name="objects">
     <object>objects\obj_player</object>
     <object>objects\obj_wall</object>
