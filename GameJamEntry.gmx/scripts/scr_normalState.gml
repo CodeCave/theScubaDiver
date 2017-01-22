@@ -23,7 +23,7 @@ if(place_meeting(x,y+1,obj_wall)){ // Jump if on ground
 if (space = 1) {
 
     if(canShoot) { 
-        scr_shoot(false);  
+        scr_shoot();  
     } 
 }
 

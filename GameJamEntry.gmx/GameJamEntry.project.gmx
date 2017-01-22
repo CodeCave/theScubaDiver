@@ -7,6 +7,7 @@
   <sounds name="sound">
     <sound>sound\snd_shoot</sound>
     <sound>sound\snd_button</sound>
+    <sound>sound\sound2</sound>
   </sounds>
   <sprites name="sprites">
     <sprite>sprites\spr_normal</sprite>
@@ -79,6 +80,7 @@
     </objects>
     <object>objects\obj_bubble</object>
     <object>objects\obj_gun</object>
+    <object>objects\obj_mega_wave</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_menu</room>
