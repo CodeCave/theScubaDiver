@@ -28,8 +28,9 @@
             <string>image_speed = 0;
 text = "Not Setup";
 index=0;
-colr = c_black;
+colr = c_white;
 menu_script = scr_mainMenu;
+draw_set_font(fnt_blub);
 </string>
           </argument>
         </arguments>
@@ -53,7 +54,7 @@ menu_script = scr_mainMenu;
           <argument>
             <kind>1</kind>
             <string>index=0;
-colr=c_black;
+colr=c_white;
 </string>
           </argument>
         </arguments>
@@ -77,7 +78,7 @@ colr=c_black;
           <argument>
             <kind>1</kind>
             <string>index=1;
-draw_set_colour(c_white);
+colr=c_black;
 draw_text(x,y,text);
 audio_play_sound(snd_button,0,false);
 

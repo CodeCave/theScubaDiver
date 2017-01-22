@@ -1,3 +1,4 @@
+count = 0;
 switch (mpos)
 {
     case 0://Start New Game
@@ -7,12 +8,18 @@ switch (mpos)
     }
     case 1://Credits
     {
-
+        room_goto(rm_credits);
         break;
     }
     case 2://Options
     {
-        game_end(); break;
+  
+        instance_create(x,y , obj_aww)
+        break;
+    }
+        case 3://Options
+    {
+        room_goto(rm_menu);
         break;
     }
     default:

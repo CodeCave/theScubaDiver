@@ -63,18 +63,10 @@ bottomHeight = height + maxHeight;
         vsp = movespeed;
         scr_detectCollision();
         
-         if(y &lt; topHeight) {
-             movespeed = abs(movespeed);
-      
-        } else if(y &gt; bottomHeight) {
-
-            if(movespeed &gt; 0 ) {
-                movespeed = movespeed * -1; 
-            }
-            
+         if(vsp=0) {
+             movespeed = movespeed*-1;
         }
 
-        
         y += vsp;          
 }
 

@@ -15,7 +15,7 @@ x += hsp;
 y += vsp;
 
 deadcount ++;
-if (deadcount >= 200){
+if (deadcount >= 100){
 instance_destroy();
 room_goto(rm_gameOver);
 }

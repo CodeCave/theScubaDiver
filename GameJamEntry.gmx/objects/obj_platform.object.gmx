@@ -74,7 +74,7 @@ audio_play_sound(snd_bubble,0,false);
           <argument>
             <kind>1</kind>
             <string>count++;
-if(count &gt; 200)
+if(count &gt; 270)
 {
     instance_destroy();
 }

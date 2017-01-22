@@ -51,6 +51,7 @@
             <string>switch(room){
     case rm_menu:
     {
+    
         bgmusic = snd_title;
         break;
     }
@@ -62,6 +63,11 @@
     case rm_gameOver:
     {
         bgmusic = snd_loser;
+        break;
+    }
+        case rm_winner:
+    {
+        audio_play_sound(snd_fanfare,0,false);
         break;
     }
     default:

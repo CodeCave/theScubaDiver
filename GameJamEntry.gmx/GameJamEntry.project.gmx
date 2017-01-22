@@ -7,7 +7,6 @@
   <sounds name="sound">
     <sound>sound\snd_shoot</sound>
     <sound>sound\snd_button</sound>
-    <sound>sound\sound2</sound>
     <sound>sound\sound_mega_wave</sound>
     <sound>sound\snd_bubble</sound>
     <sound>sound\snd_dead</sound>
@@ -17,6 +16,8 @@
     <sound>sound\snd_title</sound>
     <sound>sound\snd_bgmusix</sound>
     <sound>sound\snd_loser</sound>
+    <sound>sound\snd_fanfare</sound>
+    <sound>sound\snd_aww</sound>
   </sounds>
   <sprites name="sprites">
     <sprite>sprites\spr_normal</sprite>
@@ -62,6 +63,7 @@
     <background>background\bg_waterbg</background>
     <background>background\bg_loser</background>
     <background>background\bg_win</background>
+    <background>background\spr_credits</background>
   </backgrounds>
   <paths name="paths">
     <path>paths\pth_backandForth</path>
@@ -108,11 +110,13 @@
     <object>objects\obj_musicPlayer</object>
     <object>objects\obj_win</object>
     <object>objects\obj_jellyfish</object>
+    <object>objects\obj_aww</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_menu</room>
     <room>rooms\rm_lvl_one</room>
     <room>rooms\rm_gameOver</room>
+    <room>rooms\rm_credits</room>
     <room>rooms\rm_winner</room>
   </rooms>
   <help>
