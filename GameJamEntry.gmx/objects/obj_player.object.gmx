@@ -31,6 +31,10 @@ hsp = 0;
 vsp = 0;
 jumpspeed = 5;
 movespeed = 4;
+canShoot = true;
+count = 0;
+boost = 0;
+vboost = 0;
 
 scr_initializeStates();
 state = states.normal;

@@ -9,15 +9,38 @@ scr_getInputs();
 //Determine if movement keys are pressed
 move = key_left+key_right;
 
-hsp = move * movespeed; // Move the Character
+hsp = (move * movespeed) + (boost); // Move the Character
+
+if(place_meeting(x,y+1,obj_wall)){ // Jump if on ground
+    if (key_up = 1) {
+        vsp = (key_up + vboost) * -jumpspeed;
+    } else {
+        vsp = (key_up*-jumpspeed);
+    }
+}
+
+if (space = 1) {
+
+    if(canShoot) { 
+        scr_shoot(false);  
+    } 
+}
+
+if (!canShoot) {
+    if (count > 30) {
+        canShoot = true;
+        boost = 0;
+        vboost = 0;
+        count = 0;
+    }
+    count++;
+}
 
 if(vsp < 10){ 
     vsp += grav;
     }
 
-if(place_meeting(x,y+1,obj_wall)){ // Jump if on ground
-    vsp = key_up *-jumpspeed;
-    }
+
 
 scr_detectCollision();    
     
@@ -29,7 +52,4 @@ if(key_down=1){
     fromState=states.normal;
     }
 
-if (space = 1) {
 
-    scr_shoot();    
-}
