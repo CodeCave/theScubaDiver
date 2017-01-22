@@ -1,4 +1,9 @@
+
 //var gunAiming = obj_gun.gunAiming;
+
+var gunAiming = argument0;
+//one is up two is down
+
 var object;
 var chargedShot = false;
 //if (obj_player.canShoot) {
@@ -25,8 +30,30 @@ var chargedShot = false;
     
       
         var wave_energy = instance_create(x,y,object);
-        if (obj_gun.image_xscale = 1){
+       if (gunAiming = 1) {
+            wave_energy.direction = 90;
+            if (chargedShot) { 
+                    wave_energy.sprite_index = spr_upMegaWave;
+                } else {
+                    wave_energy.sprite_index = spr_waveUp;
+                }
+       } else if (gunAiming = 2) {
+            wave_energy.direction = 270;
+            if (chargedShot) {
+                wave_energy.sprite_index = spr_upMegaWave;
+                wave_energy.image_yscale = -1;
+                
+            } else {
+                wave_energy.sprite_index = spr_waveUp;
+                wave_energy.image_yscale = -1;
+                
+            }
+            if (key_up = 1) {
+            vboost = 1.3;
+            }
+       } else if (obj_gun.image_xscale = 1){
             wave_energy.direction = 0;
+            //wave_energy.image_yscale = -1;
             boost = -1;
         } else if (obj_gun.image_xscale = -1) {
             wave_energy.direction = 180;

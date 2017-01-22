@@ -11,6 +11,25 @@ global.move = key_left+key_right;
 if(global.move!=0){image_xscale = global.move;}
 
 
+var aimGun = 0;
+
+if (arrow_up = 1) {
+    obj_gun.sprite_index = spr_upgun;
+    aimGun = 1;
+} else if (arrow_down = 1) {
+    obj_gun.sprite_index = spr_downgun;
+   aimGun = 2;
+} else if (global.move > 0 ) {
+    obj_gun.sprite_index = spr_gun;
+    aimGun = 3;
+} else if (global.move < 0 ) {
+    obj_gun.sprite_index = spr_gun;
+    aimGun = 4;
+} else {
+    obj_gun.sprite_index = spr_gun;
+    }
+
+
 hsp = (global.move * movespeed) + (boost); // Move the Character
 
 if(place_meeting(x,y+1,obj_wall)){ // Jump if on ground
@@ -24,7 +43,7 @@ if(place_meeting(x,y+1,obj_wall)){ // Jump if on ground
 if (space = 1) {
 
     if(canShoot) { 
-        scr_shoot();  
+        scr_shoot(aimGun);  
     } 
 }
 
