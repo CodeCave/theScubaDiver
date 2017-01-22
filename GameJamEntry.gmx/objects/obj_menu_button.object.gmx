@@ -28,7 +28,7 @@
             <string>image_speed = 0;
 text = "Not Setup";
 index=0;
-colr = c_black;
+colr = c_white;
 menu_script = scr_mainMenu;
 </string>
           </argument>
@@ -160,6 +160,7 @@ colr = c_white;
             <string>draw_sprite(spr_button,index,x,y);
 draw_set_valign(fa_center);
 draw_set_halign(fa_center);
+draw_set_font(fnt_blub);
 draw_set_colour(colr);
 draw_text(x,y,text);
 

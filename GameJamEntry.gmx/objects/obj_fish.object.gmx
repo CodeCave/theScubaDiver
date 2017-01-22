@@ -120,8 +120,10 @@ image_xscale = dir;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>hsp-=obj_player.boost;
-
+            <string>with(other){
+instance_destroy();
+}
+image_xscale = dir;
 </string>
           </argument>
         </arguments>

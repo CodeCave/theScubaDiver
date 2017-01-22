@@ -57,6 +57,7 @@
     <script>scripts\scr_deadState.gml</script>
     <script>scripts\scr_mainMenu.gml</script>
   </scripts>
+  <fonts name="fonts"/>
   <objects name="objects">
     <object>objects\obj_player</object>
     <object>objects\obj_wall</object>
