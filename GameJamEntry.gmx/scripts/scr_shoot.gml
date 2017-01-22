@@ -1,5 +1,9 @@
+
+//var gunAiming = obj_gun.gunAiming;
+
 var gunAiming = argument0;
 //one is up two is down
+
 var object;
 var chargedShot = false;
 //if (obj_player.canShoot) {

@@ -10,6 +10,7 @@ scr_getInputs();
 global.move = key_left+key_right;
 if(global.move!=0){image_xscale = global.move;}
 
+
 var aimGun = 0;
 
 if (arrow_up = 1) {
@@ -27,6 +28,7 @@ if (arrow_up = 1) {
 } else {
     obj_gun.sprite_index = spr_gun;
     }
+
 
 hsp = (global.move * movespeed) + (boost); // Move the Character
 

@@ -35,6 +35,8 @@ canShoot = true;
 count = 0;
 boost = 0;
 vboost = 0;
+deadcount = 0;
+wincount = 0;
 
 scr_initializeStates();
 state = states.normal;
