@@ -2,24 +2,24 @@
 <sprite>
   <type>0</type>
   <xorig>13</xorig>
-  <yorigin>23</yorigin>
+  <yorigin>15</yorigin>
   <colkind>1</colkind>
-  <coltolerance>0</coltolerance>
+  <coltolerance>255</coltolerance>
   <sepmasks>0</sepmasks>
   <bboxmode>0</bboxmode>
-  <bbox_left>0</bbox_left>
-  <bbox_right>26</bbox_right>
-  <bbox_top>0</bbox_top>
-  <bbox_bottom>46</bbox_bottom>
+  <bbox_left>49</bbox_left>
+  <bbox_right>0</bbox_right>
+  <bbox_top>29</bbox_top>
+  <bbox_bottom>0</bbox_bottom>
   <HTile>0</HTile>
   <VTile>0</VTile>
   <TextureGroups>
     <TextureGroup0>0</TextureGroup0>
   </TextureGroups>
   <For3D>0</For3D>
-  <width>27</width>
-  <height>47</height>
+  <width>50</width>
+  <height>30</height>
   <frames>
-    <frame index="0">images\spr_duck_0.png</frame>
+    <frame index="0">images\spr_gun_0.png</frame>
   </frames>
 </sprite>

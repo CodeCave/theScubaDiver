@@ -2,9 +2,10 @@
 sprite_index = spr_duck;
 scr_getInputs();
 //Determine if movement keys are pressed
-move = key_left+key_right;
+global.move = key_left+key_right;
+if(global.move!=0){image_xscale = global.move;}
 
-hsp = move * movespeed; // Move the Character
+hsp = global.move * movespeed; // Move the Character
 
 if(vsp < 10){ 
     vsp += grav;

@@ -7,9 +7,10 @@ scr_changeSprite(spr_duck,spr_normal);
 //Get Inputs
 scr_getInputs();
 //Determine if movement keys are pressed
-move = key_left+key_right;
+global.move = key_left+key_right;
+if(global.move!=0){image_xscale = global.move;}
 
-hsp = (move * movespeed) + (boost); // Move the Character
+hsp = (global.move * movespeed) + (boost); // Move the Character
 
 if(place_meeting(x,y+1,obj_wall)){ // Jump if on ground
     if (key_up = 1) {
