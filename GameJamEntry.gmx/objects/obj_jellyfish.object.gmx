@@ -60,7 +60,7 @@ bottomHeight = height + maxHeight;
           <argument>
             <kind>1</kind>
             <string>if(obj_player.state != states.dead){
-    
+        vsp = movespeed;
         scr_detectCollision();
         
          if(y &lt; topHeight) {
@@ -75,7 +75,7 @@ bottomHeight = height + maxHeight;
         }
 
         
-        y += movespeed;          
+        y += vsp;          
 }
 
 </string>

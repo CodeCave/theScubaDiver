@@ -26,11 +26,11 @@
           <argument>
             <kind>1</kind>
             <string>//Initialize Variables
-grav = 0.4
+grav = 0.3
 hsp = 0;
 vsp = 0;
-jumpspeed = 6;
-movespeed = 2;
+jumpspeed = 7;
+movespeed = 3;
 canShoot = true;
 count = 0;
 boost = 0;

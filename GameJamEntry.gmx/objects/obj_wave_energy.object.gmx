@@ -72,7 +72,6 @@
         <arguments>
           <argument>
             <kind>1</kind>
-
             <string>if(hspeed &gt; 0){
     if(other.dir &lt; 0){
         other.dir = other.dir*-1;
