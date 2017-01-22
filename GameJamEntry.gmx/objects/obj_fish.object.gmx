@@ -25,10 +25,14 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>hsp=0;
-vsp=0;
-movespeed = 4;
+            <string>movespeed = 1;
 count = 0;
+max_dist = 300;
+hsp=0;
+vsp=0;
+dir = -1;
+dist_moved= 0;
+image_xscale = dir;
 </string>
           </argument>
         </arguments>
@@ -52,7 +56,35 @@ count = 0;
           <argument>
             <kind>1</kind>
             <string>if(obj_player.state != states.dead){
-    if(irandom(100)&gt;80){
+    hsp = movespeed*dir; // increase move
+    if(place_meeting(x+hsp,y,obj_wall)){ // if colliding with a wall
+     dir = dir*-1; //turnt the heck around
+     image_xscale = dir;
+     dist_moved = 0;
+    }
+    if(dist_moved &gt;= max_dist or dist_moved &lt;= -max_dist){ //if gone too far
+     dir = dir*-1; //turnt the heck around
+     image_xscale = dir;
+     dist_moved=0;
+    }
+    x+=hsp; //move!
+    dist_moved += hsp;//keep track
+    
+    
+    
+    /*if(!place_meeting(x+hsp,y,obj_wall) or abs(count)&lt;=abs(max_distance)){
+    hsp += movespeed;
+    count+=movespeed;
+    }
+    else if(place_meeting(x+hsp, y, obj_wall) or abs(count)&gt;=abs(max_distance)){
+    movespeed = movespeed*-1;
+    image_xscale = sign(movespeed*-1);
+    count = 0;
+    }
+    //scr_detectCollision();
+    x += hsp;*/
+    
+    /*if(irandom(100)&gt;80){
      if(count = 0){        
         if(irandom(1)=0){diff = -1;}
         else{ diff=1;}
@@ -64,7 +96,7 @@ count = 0;
         count ++;
         if(count &gt; 100){
         count =0;}   
-    }
+    }*/
 }
 </string>
           </argument>
