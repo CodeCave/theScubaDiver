@@ -2,5 +2,6 @@ enum states{
     normal,
     duck,
     float,
-    dead
+    dead, 
+    win
 }

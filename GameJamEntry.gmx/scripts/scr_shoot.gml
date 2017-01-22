@@ -1,41 +1,55 @@
 var object;
+
 if (arrow_left = 1 or arrow_right = 1) {
-object = obj_wave_energy
+    object = obj_wave_energy
 } else if(arrow_up = 1 or arrow_down = 1) {
-object = obj_wave_enery_vert;
+    object = obj_wave_enery_vert;
 } else {
-object = obj_wave_energy;
+    object = obj_wave_energy;
 }
 
 var wave_energy = instance_create(x,y,object);
 //var wave_energyVert = instance_create(x,y,obj_wave_enery_vert);
 //var wave_energy;
 
-if (arrow_left = 1) {
-   // var wave_energy = instance_create(x,y,obj_wave_energy);
+if (arrow_left + arrow_up = 2) {
+
+        wave_energy.direction = 135;
+
+} else if (arrow_left + arrow_down = 2) {
+
+        wave_energy.direction = 225;
+
+} else if (arrow_right + arrow_up = 2) {
+
+        wave_energy.direction = 45;
+
+} else if (arrow_right + arrow_down = 2) {
+
+        wave_energy.direction = 315;
+
+} else if (arrow_left = 1) {
+   
     wave_energy.direction +=180;
     wave_energy.image_xscale = -1;
-}
 
-if (arrow_right = 1) {
-//    var wave_energy = instance_create(x,y,obj_wave_energy);
+} else if (arrow_right = 1) {
+
     wave_energy.direction += 0;
-}
+    
+} else if (arrow_up = 1) {
 
-if (arrow_up = 1) {
-//    var wave_energy = instance_create(x,y,obj_wave_energy_vert);
     wave_energy.direction = 90;
     wave_energy.image_yscale = -1;
-}
+    
+} else if (arrow_down = 1) {
 
-if (arrow_down = 1) {
-//    var wave_energy = instance_create(x,y,obj_wave_energy_vert);
     wave_energy.direction = 270;
 
-}
+} else {}
 
 
-//wave_energy.direction = image_angle;
+
 wave_energy.image_angle = image_angle;
 wave_energy.speed = 5;
 audio_play_sound(snd_shoot,0,false);
