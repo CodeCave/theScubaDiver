@@ -13,6 +13,7 @@
     <sprite>sprites\spr_wall</sprite>
     <sprite>sprites\spr_duck</sprite>
     <sprite>sprites\spr_waveAnim</sprite>
+    <sprite>sprites\spr_megaWave</sprite>
     <sprite>sprites\spr_fish</sprite>
     <sprite>sprites\fish_backup</sprite>
     <sprite>sprites\spr_bg</sprite>
